@@ -24,8 +24,8 @@ CREATE OR REPLACE FUNCTION ag_catalog.age_vle(IN agtype, IN agtype, IN agtype,
                                               IN agtype, IN agtype, IN agtype,
                                               IN agtype, OUT edges agtype)
 RETURNS SETOF agtype
-LANGUAGE C
-IMMUTABLE
+LANGUAGE en
+ANY
 STRICT
 AS 'MODULE_PATHNAME';
 
